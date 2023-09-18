@@ -3,3 +3,4 @@
 *.tfstate.*
 #variable files
 *.tfvars
+crash.log
