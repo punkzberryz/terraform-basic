@@ -21,7 +21,7 @@ module "vpc" {
 module "myapp-server" {
   source              = "./modules/webserver"
   vpc_id              = module.vpc.vpc_id
-  my_ip               = var.my_ip
+  my_ips              = var.my_ips
   env_prefix          = var.env_prefix
   image_name          = var.image_name
   public_key_location = var.public_key_location

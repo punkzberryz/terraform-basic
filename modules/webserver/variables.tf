@@ -1,5 +1,5 @@
 variable "vpc_id" {}
-variable "my_ip" {}
+variable "my_ips" {}
 variable "env_prefix" {}
 variable "image_name" {}
 variable "public_key_location" {}
